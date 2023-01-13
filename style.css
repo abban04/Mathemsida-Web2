@@ -1,0 +1,142 @@
+body{
+    background-color: #AB0013;
+    margin: 0px;
+}
+.nav-bar{
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 1276px;
+    height: 94px;
+    border:solid black 2px;
+    background-color: #D9D9D9;
+    justify-content:space-around;
+    align-items: center;
+}
+.title{
+    font-size: 70px;
+    color: black,red,yellow;
+}
+.wun{
+    color:black;
+}
+.der{
+    color:red;
+    margin-left: -20px;
+}
+.mat{
+    color:yellow;
+    margin-left: -16px;
+}
+.menu{
+    font-size: 30px;
+}
+.order{
+    font-size: 30px;
+}
+.kontakt{
+    font-size: 30px;
+}
+.bild{
+    width:400px;
+    height:300px;
+    margin-top: 98px;
+    display: inline-block;
+}
+.text-box{
+    display: flex;
+    justify-content: space-between;
+    color:beige;
+}
+.footer{
+    background-color:darkslategrey;
+    display: flex;
+    height: 175px;
+    border: solid black 2px;
+    align-items: center ;
+    justify-content: space-between;
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.currybild{
+    height: 194px;
+    width: 270px;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.korvbild{
+    height: 194px;
+    width: 270px;
+    margin-left: 200px;
+}
+.bakelsebild{
+    height: 194px;
+    width: 270px;
+    margin-left: 240px;
+}
+.munkbild{
+    height: 194px;
+    width: 270px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.item1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.item2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+.item3{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 20px;
+}
+.ölbild{
+    height: 250px;
+    width: 270px;
+    margin-left: 240px;
+}
+.äppelbild{
+    height: 250px;
+    width: 270px;
+    margin-left: 200px;
+}
+.grid-container{
+    margin-top: 50px;
+    display:grid;
+    background-color: brown;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.grid-item1{
+    background-color:white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.klar{
+    height: 40px;
+    width: 80px;
+}
+.info{
+    position:absolute;
+    margin-left: 400px;
+    margin-top: 80px;
+}
